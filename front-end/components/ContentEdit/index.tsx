@@ -21,7 +21,7 @@ const ContEditor: FunctionComponent = (props: any) => {
       formData.append('image', file)
 
       axios
-        .post(`http://127.0.0.1:4567${props.uploadPath}`, formData, {
+        .post(`https://3drealisticbeelite.backend.aptugo.app${props.uploadPath}`, formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
