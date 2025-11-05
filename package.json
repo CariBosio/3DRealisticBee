@@ -86,7 +86,6 @@
     "gsap": "^3.12.2",
 
     "three": "^0.150.0",
-    "three/examples/js/loaders/GLTFLoader": "^0.150.0",
 
     "typesafe-actions": "5.1.0"
   },
