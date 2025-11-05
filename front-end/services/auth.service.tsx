@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://3drealisticbeelite.backend.aptugo.app/api/'
+const API_URL = 'http://127.0.0.1:4567/api/'
 
 interface LoginOptions {
   remember?: boolean

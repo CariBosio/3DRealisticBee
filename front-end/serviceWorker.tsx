@@ -13,9 +13,9 @@ type Config = {
 
 export function register(config?: Config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
-    const publicUrl = new URL('https://3drealisticbeelite.aptugo.app')
+    const publicUrl = new URL('https://3drealisticbeelite.aptugo.com')
     window.addEventListener('load', () => {
-      const swUrl = `https://3drealisticbeelite.aptugo.app/service-worker.js`
+      const swUrl = `https://3drealisticbeelite.aptugo.com/service-worker.js`
       if (isLocalhost) {
         checkValidServiceWorker(swUrl, config)
         navigator.serviceWorker.ready.then(() => {
