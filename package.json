@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    // 🔹 Usamos npx para asegurar que webpack se ejecute correctamente en Vercel
+   
     "build": "npx webpack --config=config/webpack.prod.js",
     "build-and-serve": "npm run build && npm run dev:prod",
     "clean-dist": "rimraf build/*",
@@ -46,8 +46,7 @@
     "three": "^0.150.0",
     "typesafe-actions": "5.1.0",
 
-    // ✅ Agregamos webpack y webpack-cli aquí también
-    "webpack": "5.73.0",
+      "webpack": "5.73.0",
     "webpack-cli": "5.0.1"
   },
   "devDependencies": {
